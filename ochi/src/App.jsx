@@ -5,6 +5,7 @@ import Landing from './Components/Landing';
 import Marquee from './Components/Marquee';
 import About from './Components/About';
 import Eyes from './Components/Eyes';
+import Featured from './Components/Featured';
 function App() {
   return (
     <div className='w-full min-h-screen bg-zinc-900 text-white'>
@@ -13,6 +14,7 @@ function App() {
      <Marquee/>
      <About/>
      <Eyes/>
+     <Featured/>
     </div>
   )
 }
