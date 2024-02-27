@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import Navbar from './Components/Navbar'
-import Landing from './Landing';
+import Landing from './Components/Landing';
 import Marquee from './Components/Marquee';
 import About from './Components/About';
 import Eyes from './Components/Eyes';
