@@ -1,15 +1,31 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import React from "react";
+
 function Marquee() {
   return (
-    <div className='w-full h-screen py-20 rounded-tr-3xl bg-[#004D43]'>
-      <div className='text border-t-2 border-b-2 border-zinc-300 flex gap-10  overflow-hidden whitespace-nowrap'>
-        <h1 className='text-[24vw] leading-none font-["Founders_Grotesk_X-Condensed"] uppercase pt-10 mb-[7vw] font-semibold'>
-          We Are Ochi
-        </h1>
-        <h1 className='text-[24vw] leading-none font-["Founders_Grotesk_X-Condensed"] uppercase pt-10 mb-[7vw] font-semibold'>
-          We Are Ochi
-        </h1>
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed=".1"
+      className="text-white w-full rounded-tl-3xl rounded-tr-3xl py-20 bg-[#004D43]"
+    >
+      <div className="text border-t-2 border-b-2 border-zinc-300 flex whitespace-nowrap overflow-hidden">
+        <motion.h1
+          initial={{ x: "0" }}
+          animate={{ x: "-100%" }}
+          transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
+          className="text-[16vw] leading-none font-neue font-bold uppercase pt-10 mb-20 pr-32"
+        >
+          We are Ochi
+        </motion.h1>
+        <motion.h1
+          initial={{ x: "0" }}
+          animate={{ x: "-100%" }}
+          transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
+          className="text-[16vw] leading-none font-neue font-bold uppercase pt-10 mb-20 pr-32"
+        >
+          We are Ochi
+        </motion.h1>
       </div>
     </div>
   );

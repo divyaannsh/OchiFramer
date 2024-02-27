@@ -1,9 +1,17 @@
 import React from "react";
 
-function Navbar() {
+function Footer() {
   return (
-    <div className="fixed z-[999] w-full px-20 py-8 font-neue flex justify-between items-center">
-      <div className="logo cursor-pointer">
+    <div className="w-full flex  h-[580px] p-20">
+      <div className="w-1/2 h-full flex flex-col justify-between font-grotes">
+        <div className="heading">
+          <h1 className="text-[9vw] uppercase leading-none font-extrabold">
+            Eye-
+          </h1>
+          <h1 className="text-[9vw] uppercase leading-none font-extrabold">
+            Opening
+          </h1>
+        </div>
         <svg
           width="72"
           height="30"
@@ -33,22 +41,24 @@ function Navbar() {
           ></path>
         </svg>
       </div>
-      <div className="links flex gap-10">
-        {["Services", "Our Work", "About Us", "Insights", "Contact"].map(
-          (item, index) => (
-            <a
-              key={index}
-              className={`text-lg font-light capitalize cursor-pointer ${
-                index === 4 && "ml-32"
-              }`}
-            >
-              {item}
-            </a>
-          )
-        )}
+      <div className="w-1/2">
+        <h1 className="text-[9vw] uppercase leading-none font-semibold font-grotes">
+          Presentations
+        </h1>
+        <div className="dets font-neue mt-10">
+          <a className="block text-xl font-light" href="">
+            Facebook
+          </a>
+          <a className="block text-xl font-light" href="">
+            Instagram
+          </a>
+          <a className="block text-xl font-light" href="">
+            Twitter
+          </a>
+        </div>
       </div>
     </div>
   );
 }
 
-export default Navbar;
+export default Footer;
