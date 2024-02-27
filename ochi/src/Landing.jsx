@@ -31,12 +31,13 @@ function Landing() {
         <div className="start flex items-center gap-3">
           <div className="px-3 py-1 border-[1px] border-zinc-400 font-light text-sm uppercase rounded-full flex items-center">
             Start Project
-            <div className="ml-2 w-8 h-8 flex items-center justify-center border-[1px] border-zinc-400">
+           
+          </div>
+          <div className="ml-2 w-8 h-8 flex items-center justify-center border-[1px] border-zinc-400">
               <span className="rotate-[45deg]">
                 <FaArrowUpLong />
               </span>
             </div>
-          </div>
         </div>
       </div>
     </div>
