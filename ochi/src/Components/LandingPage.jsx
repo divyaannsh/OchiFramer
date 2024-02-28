@@ -10,7 +10,7 @@ function LandingPage() {
       data-scroll-speed="-.3"
       className="w-full h-screen pt-1"
     >
-      <div className="textstructure mt-52 px-20">
+      <div className="textstructure mt-52 px-20  font-['Founders_Grotesk_X-Condensed'] font-semibold tracking-tighter">
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
           return (
             <div className="masker " key={index}>
@@ -18,7 +18,7 @@ function LandingPage() {
                 {index === 1 && (
                   <motion.div
                     initial={{ width: 0 }}
-                    animate={{ width: "8vw" }}
+                    animate={{ width: "9vw" }}
                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 2 }}
                     className="w-[8vw] mt-[5.4px] mr-5 h-[6vw]"
                   >

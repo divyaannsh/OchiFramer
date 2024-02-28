@@ -13,16 +13,16 @@ function Marquee() {
         <motion.h1
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
-          transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
-          className="text-[16vw] leading-none font-neue font-bold uppercase pt-10 mb-20 pr-32"
+          transition={{ repeat: Infinity, ease: "linear", duration: 6 }}
+          className="text-[24vw] leading-none  font-semibold font-['Founders_Grotesk_X-Condensed]  uppercase pt-10 mb-20 pr-32"
         >
           We are Ochi
         </motion.h1>
         <motion.h1
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
-          transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
-          className="text-[16vw] leading-none font-neue font-bold uppercase pt-10 mb-20 pr-32"
+          transition={{ repeat: Infinity, ease: "linear", duration: 6 }}
+          className="text-[24vw] leading-none  font-semibold font-['Founders_Grotesk_X-Condensed]  uppercase pt-10 mb-20 pr-32"
         >
           We are Ochi
         </motion.h1>

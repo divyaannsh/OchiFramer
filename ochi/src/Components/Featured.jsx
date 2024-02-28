@@ -15,7 +15,7 @@ function Featured() {
   return (
     <div className="w-full py-20">
       <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-14">
-        <h1 className="text-8xl font-neue">Featured Projects</h1>
+        <h1  className="text-[4vw] leading-none  font-bold font-['Founders_Grotesk_X-Condensed]  uppercase pt-1 mb-10 pr-12">Featured Projects</h1>
       </div>
       <div className="px-20">
         <div className="cards w-full flex gap-20 mt-10">
@@ -24,7 +24,7 @@ function Featured() {
             onHoverEnd={() => handleHoverEnd(cardControls[0])}
             className="cardcontainer relative w-1/2 h-[75vh]"
           >
-            <h1 className="absolute overflow-hidden flex text-[#EC6234] left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
+            <h1 className="absolute overflow-hidden flex text-[#CDEA68] left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
               {"FYDE".split("").map((item, index) => (
                 <motion.span
                   key={index}
@@ -48,7 +48,7 @@ function Featured() {
             onHoverEnd={() => handleHoverEnd(cardControls[1])}
             className="cardcontainer relative w-1/2 h-[75vh]"
           >
-            <h1 className="absolute flex overflow-hidden text-[#EC6234] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
+            <h1 className="absolute flex overflow-hidden text-[#CDEA68] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
               {"VISE".split("").map((item, index) => (
                 <motion.span
                   key={index}

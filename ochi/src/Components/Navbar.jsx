@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <div className="fixed z-[999] w-full px-20 py-8 font-neue flex justify-between items-center">
@@ -47,6 +47,27 @@ function Navbar() {
           )
         )}
       </div>
+
+
+      {/* <div className="links flex gap-10">
+        {[
+          { label: 'Services', link: '/services' },
+          { label: 'Our Work', link: '/our-work' },
+          { label: 'About Us', link: '/about-us' },
+          { label: 'Insights', link: '/insights' },
+          { label: 'Contact', link: '/contact' },
+        ].map((item, index) => (
+          <Link
+            key={index}
+            to={item.link}
+            className={`text-lg font-light capitalize cursor-pointer ${
+              index === 4 && 'ml-32'
+            }`}
+          >
+            {item.label}
+          </Link>
+        ))}
+      </div> */}
     </div>
   );
 }
