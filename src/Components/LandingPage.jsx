@@ -8,7 +8,7 @@ function LandingPage() {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.3"
-      className="w-full h-screen min-h-screen pt-1"
+      className="w-full h-screen pt-1"
     >
       <div className="textstructure mt-52 px-20  font-['Founders_Grotesk_X-Condensed'] font-semibold tracking-tighter">
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
