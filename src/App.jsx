@@ -13,7 +13,7 @@ import LocomotiveScroll from "locomotive-scroll";
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className="w-full h-screen ">
+    <div className="w-full h-full min-h-screen">
        <Navbar/>
       <LandingPage/>
       <Marquee />
