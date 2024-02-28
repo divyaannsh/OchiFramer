@@ -13,7 +13,7 @@ function Featured() {
   };
 
   return (
-    <div className="w-full py-20">
+    <div className="w-full min-h-screen py-20">
       <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-14">
         <h1  className="text-[4vw] leading-none  font-bold font-['Founders_Grotesk_X-Condensed]  uppercase pt-1 mb-10 pr-12">Featured Projects</h1>
       </div>

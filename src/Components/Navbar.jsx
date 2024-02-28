@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 function Navbar() {
   return (
-    <div className="fixed z-[999] w-full px-20 py-8 font-neue flex justify-between items-center">
+    <div className="fixed z-[999] w-full min-h-screen px-20 py-8 font-neue flex justify-between items-center">
       <div className="logo cursor-pointer">
         <svg
           width="72"
